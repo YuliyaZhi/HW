@@ -10,8 +10,8 @@
         .container {
             display: grid;
             border: solid black;
-            width: 80vh;
-            height: 40vw;
+            width: 90vh;
+            height: 25vw;
             font-size: large;
             font-weight: bold;
             text-align: center;
@@ -35,7 +35,6 @@
             align-content: space-around;
             justify-content: space-around;
             grid-gap: 30px;
-
         }
 
         .foot {
@@ -43,8 +42,6 @@
             height: 70px;
             background: white;
             align-items: center;
-
-
         }
 
         .main {
@@ -70,12 +67,11 @@
 
         section {
             display: grid;
-            grid-template-columns: 40% 40%;
-
+            margin: 10px;
             grid-gap: 20px;
-            justify-content: center;
-
-
+            grid-template-columns: 1fr 1fr;
+            justify-content: space-between;
+            align-self: flex-end;
         }
 
         .else1 {
@@ -83,37 +79,34 @@
             height: 70px;
             align-items: center;
 
+
+
         }
 
         .else2 {
             height: 70px;
             display: grid;
-            grid-column: 1/4;
             align-items: center;
-
-
-
+            margin: 10px;
         }
     </style>
 </head>
 
 <body>
-
     <div class="container">
         <header class="header" style="background-color: rgba(152, 152, 150, 0.805);"> [Шапка страницы]</header>
-
         <main class="main">
             <div class="main1" style="background-color: rgba(237, 233, 176, 0.805);">[Основная часть]
                 <section>
                     <div class="else1" style="background-color: rgb(246, 197, 113);">[Еще1]</div>
-                    <div class="else1" style="background-color:rgb(246, 197, 113); ;">[Еще2]</div>
-                    <div class="else2" style="background-color: rgb(246, 197, 113);;">[Еще3]</div>
+                    <div class="else1" style="background-color:rgb(246, 197, 113);">[Еще2]</div>
                 </section>
+                <section1>
+                    <div class="else2" style="background-color: rgb(246, 197, 113);">[Еще3]</div>
             </div>
-
+            </section>
             <aside class="sidebar" style="background-color: rgb(74, 110, 74)">[Боковая часть]</aside>
         </main>
-
         <footer class="footer">
             <div class="foot">[Секция футера1]</div>
             <div class="foot">[Секция футера2]</div>
