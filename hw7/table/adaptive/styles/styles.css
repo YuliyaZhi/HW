@@ -11,9 +11,10 @@ footer {
 
 .container {
     display: grid;
+    margin-left: 1%;
     border: solid black;
-    width: 100vh;
-    height: 35vw;
+    width: 95%;
+    height: 40vw;
     font-size: 2vh;
     font-weight: bold;
     text-align: center;
@@ -63,7 +64,7 @@ footer {
 
 section {
     display: grid;
-    margin: 10px;
+    margin: 20px;
     grid-gap: 2%;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
