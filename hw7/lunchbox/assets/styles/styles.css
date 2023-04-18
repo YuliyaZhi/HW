@@ -16,24 +16,7 @@ footer {
         "block1 block2 block3"
         "block4 block4 block4"
 
-
 }
-
-
-.biglogo {
-    display: grid;
-    grid-area: block1;
-}
-
-.card {
-    height: 20vh;
-    display: grid;
-    align-items: start;
-    margin: 2%;
-    background-color: rgb(242, 163, 84);
-    grid-area: block4;
-}
-
 
 h2 {
     margin-left: 7%;
@@ -58,10 +41,46 @@ button:hover {
     background-color: rgb(235, 240, 89);
 }
 
+.container {
+    display: grid;
+
+    img {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+.biglogo {
+    display: grid;
+    grid-area: block1;
+}
+
+.card {
+    height: 20vh;
+    display: grid;
+    align-items: start;
+    margin: 2%;
+    background-color: rgb(242, 163, 84);
+    grid-area: block4;
+}
+
+
+
+
 .network {
     display: flex;
     margin-top: 5%;
     grid-gap: 30px;
+}
+
+.first {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    grid-template-rows: 50vh;
+    padding: 5%;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10%;
+
 }
 
 .second {
@@ -93,15 +112,12 @@ button:hover {
 
 }
 
-.first {
-    display: grid;
-    grid-template-columns: 8fr 4fr;
+.food {
+    grid-template-columns: 6fr 6fr;
     grid-template-rows: 50vh;
-    padding: 5%;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 10%;
 
 }
+
 
 .info {
     padding: 5%;
@@ -109,8 +125,6 @@ button:hover {
     margin-bottom: 5%;
     margin-left: 10%;
     text-align: start;
-
-
 
 }
 
@@ -147,23 +161,24 @@ button:hover {
 }
 
 .fullhalf {
-    margin-top: 10px;
     display: grid;
-    grid-template-columns: 38% 40%;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin-top: 5%;
 }
 
 
 
 .size100 {
-    font-size: 5em;
+    font-size: 10vh;
 }
 
 .size50 {
-    font-size: 3em;
+    font-size: 5vh;
 }
 
 .size30 {
-    font-size: 2em;
+    font-size: 3vh;
 }
 
 .mail {
@@ -177,8 +192,8 @@ button:hover {
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 40px;
-    width: 15vw;
-    height: 9vh;
+    width: 10vw;
+    height: 7vh;
 }
 
 #yellowbutton {
@@ -202,7 +217,7 @@ button:hover {
     height: 13%;
 }
 
-#step {
+.step {
     font-size: 1.5em;
 }
 
@@ -220,22 +235,26 @@ button:hover {
 
 }
 
-@media screen and (min-width: 800px) {
-
-
-    .container {
-        display: grid;
-        margin-left: 1%;
-        width: 95%;
-        height: 40vw;
-        text-align: center;
-
-
-    }
+#square {
+    height: 100%;
+    width: 20vw;
 }
 
-@media screen and (min-width: 400px) and (max-width: 799px) {
-    .footer {
+#food {
+    height: 100%;
+    width: 15vw;
+}
+
+#butplus {
+    height: 10vh;
+    width: 10vw;
+}
+
+
+
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+    footer {
         display: none;
     }
 
@@ -244,25 +263,17 @@ button:hover {
         width: 100%;
     }
 
-    .container {
-        display: grid;
-        font-size: 1em;
-        height: 70vh;
-        width: 100vw;
-        text-align: center;
 
-
-    }
 }
 
 
-@media screen and (max-width: 399px) {
+@media screen and (max-width: 599px) {
+
     .third {
         display: none;
     }
 
-
-    .info {
+    footer {
         display: none;
     }
 
@@ -272,34 +283,64 @@ button:hover {
     }
 
 
-    .header {
+    header {
+        height: 20%;
 
-        text-align: center;
-        height: 30vh;
-        font-size: 1em;
+    }
+
+    button {
+
+        background: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        border-radius: 40px;
+        width: 30vh;
+        height: 4vw;
+        font-size: 12px;
+    }
+
+    .infoheader {
+        border: solid blueviolet;
+        display: grid;
+
+        top: 20px;
+        z-index: 1;
+
+        color: rgb(60, 83, 218);
+        font-family: 'Roboto', sans-serif;
+        align-content: start;
+
+
 
     }
 
     .first {
+        height: 20%;
 
-        height: 30vh;
-        font-size: 1em;
+
 
     }
 
     .second {
+        font-size: 12px;
+        height: 20%;
+    }
 
-        height: 30vh;
-        font-size: 1em;
+    .info {
+        height: 20%;
+        font-size: 12px;
 
     }
 
-    footer {
-        height: 30vh;
-        font-size: 1em;
+    .size100 {
+        font-size: 12px;
+    }
 
+    .size50 {
+        font-size: 12px;
+    }
 
-
+    .size30 {
+        font-size: 12px;
     }
 
 }
