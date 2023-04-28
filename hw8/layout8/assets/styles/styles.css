@@ -1,114 +1,148 @@
-    body {
-        width: 90%;
-    }
+   button {
+       font-family: Roboto Slab, sans-serif;
+       background-color: blueviolet;
+       border: blueviolet;
+       color: white;
+       font-weight: bold;
+   }
 
-    .pic {
-        display: flex;
-        border: solid red;
+   .card-header {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       justify-content: space-around;
+   }
 
-    }
+   .pic {
+       display: grid;
 
-    .background {
-        border: solid blue;
-        margin-left: 45%;
-        width: 40%;
-        height: 60%;
-        opacity: 0.90;
-        z-index: -1;
-    }
+   }
 
-    .guy {
-        position: absolute;
-        width: 25%;
-        height: 55%;
-        z-index: 2;
-        margin-top: 5%;
-        margin-left: 40%;
+   .card-text {
+       margin-top: 5%;
+       font-family: Roboto Slab, sans-serif;
+   }
 
-    }
+   .background {
+       opacity: 0.90;
+       width: 100%;
+   }
 
-    .box {
-        position: absolute;
-        border: solid blueviolet;
-        z-index: 1;
-        width: 25%;
-        font-size: 'Intro ';
-        margin-top: 10%;
-        margin-left: 5%;
+   .guy {
+       position: absolute;
+       z-index: 1;
+       margin-top: 5%;
+       margin-left: 5%;
+   }
 
-    }
+   .card-body {
+       margin-top: 25%;
+   }
 
-    nav {
-        justify-content: start;
+   .box {
 
-    }
+       width: 70%;
+       font-family: 'Intro ';
+       font-size: 2rem;
+       margin-top: 10%;
+       margin-left: 5%;
+   }
 
-    .nav-link {
-        font-size: large;
-        font-family: Roboto Slab, sans-serif;
-        color: blueviolet;
-    }
+   .card-tit {
+       font-size: 5rem;
+       font-family: Vina Sans, sans-serif;
+       font-weight: bold;
+   }
 
-    .nav-footer {
-        font-size: large;
-        font-family: Roboto Slab, sans-serif;
-        color: black;
-        font-style: italic;
-        text-decoration: none;
-        padding: 15px;
+   nav {
+       justify-content: start;
 
-    }
+   }
 
-    h1 {
-        font-size: 60px;
-    }
-
-    .btn {
-        background-color: blueviolet;
-        border: rgb(226, 43, 61);
-        width: 60%;
-        font-size: large;
-        border-radius: 40px;
-    }
+   .nav-item {
+       font-size: 2rem;
+       font-family: Roboto Slab, sans-serif;
+       margin-top: 5%;
 
 
+   }
 
-    .logobut {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-right: 50px;
-    }
+   .nav-head {
+       color: blueviolet;
+       text-decoration: none;
+       padding: 15px;
+   }
 
-    #basket {
-        width: 20%;
-    }
 
-    #topbutton {
-        background-color: blueviolet;
-        border: blueviolet;
-        width: 20%;
-        height: 10%;
-        font-size: large;
-        border-radius: 40px;
-        margin-left: 20px;
-    }
 
-    #logo {
-        width: 30%;
+   .nav-footer {
 
-    }
+       color: black;
+       font-style: italic;
+       text-decoration: none;
+       padding: 15px;
 
-    .card-title {
-        font-family: 'Intro ';
-        font-weight: bold;
-        padding-top: 20%;
-    }
+   }
 
-    .card-news {
-        padding-top: 5%;
-        padding-left: 5%;
-        background-color: rgb(227, 97, 97);
-        height: 100%;
-        color: white;
-    }
+   .row {
+
+       font-size: 2rem;
+       justify-content: center;
+
+   }
+
+   #bigbutton {
+
+       width: 17vw;
+       height: 10vh;
+       font-size: 3rem;
+       border-radius: 65px;
+       margin-left: 20px;
+       font-family: Roboto Slab, sans-serif;
+       font-weight: bold;
+
+
+
+   }
+
+
+
+   .logobut {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding-right: 50px;
+   }
+
+   #basket {
+       width: 20%;
+   }
+
+   #topbutton {
+       width: 10vw;
+       height: 7vh;
+       border-radius: 50px;
+       margin-left: 20px;
+       font-size: 1rem;
+       font-family: Roboto Slab, sans-serif;
+
+
+   }
+
+   #logo {
+       width: 30%;
+
+   }
+
+
+   .card-news {
+       padding-top: 5%;
+       padding-left: 5%;
+       background-color: rgb(227, 97, 97);
+       height: 80%;
+       color: white;
+
+   }
+
+   .col {
+       padding: 10px;
+   }
