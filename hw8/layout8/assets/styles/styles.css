@@ -14,29 +14,20 @@
     font-weight: bold;
 }
 
-.bigbutton {
 
-    width: 17vw;
-    height: 10vh;
-    font-size: 3rem;
-    border-radius: 65px;
-    margin-left: 20px;
-    font-family: Roboto Slab, sans-serif;
-    font-weight: bold;
-}
 
 button {
     font-family: Roboto Slab, sans-serif;
     background-color: blueviolet;
     border: blueviolet;
     color: white;
-    font-weight: bold;
+
 }
 
 .button_bigbutton {
 
-    width: 17vw;
-    height: 10vh;
+    width: 50%;
+    height: 10%;
     font-size: 3rem;
     border-radius: 65px;
     margin-left: 20px;
@@ -100,6 +91,7 @@ button {
     justify-content: space-between;
     align-items: center;
     padding-right: 50px;
+
 }
 
 
@@ -185,6 +177,7 @@ nav {
     margin-left: 20px;
     font-size: 1rem;
     font-family: Roboto Slab, sans-serif;
+    font-weight: bold;
 }
 
 
