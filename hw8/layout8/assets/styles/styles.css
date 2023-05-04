@@ -1,155 +1,196 @@
-   .basket {
-       width: 20%;
-   }
+.background {
+    opacity: 0.90;
+    width: 100%;
+}
 
-   .bigtitle {
-       font-size: 5rem;
-       font-family: Vina Sans, sans-serif;
-       font-weight: bold;
-   }
-
-   button {
-       font-family: Roboto Slab, sans-serif;
-       background-color: blueviolet;
-       border: blueviolet;
-       color: white;
-       font-weight: bold;
-   }
-
-   .button_bigbutton {
-
-       width: 17vw;
-       height: 10vh;
-       font-size: 3rem;
-       border-radius: 65px;
-       margin-left: 20px;
-       font-family: Roboto Slab, sans-serif;
-       font-weight: bold;
-   }
-
-   .cards {
-       margin-left: 5%;
-   }
-
-   .card-body {
-       margin-top: 25%;
-   }
-
-   .card-news {
-       padding-top: 5%;
-       padding-left: 5%;
-       background-color: rgb(227, 97, 97);
-       height: 80%;
-       color: white;
-
-   }
+.basket {
+    width: 20%;
+}
 
 
+.bigtitle {
+    font-size: 5rem;
+    font-family: Vina Sans, sans-serif;
+    font-weight: bold;
+}
 
-   .col {
-       padding: 10px;
-   }
+.bigbutton {
 
+    width: 17vw;
+    height: 10vh;
+    font-size: 3rem;
+    border-radius: 65px;
+    margin-left: 20px;
+    font-family: Roboto Slab, sans-serif;
+    font-weight: bold;
+}
 
+button {
+    font-family: Roboto Slab, sans-serif;
+    background-color: blueviolet;
+    border: blueviolet;
+    color: white;
+    font-weight: bold;
+}
 
-   .logobut {
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       padding-right: 50px;
-   }
+.button_bigbutton {
 
+    width: 17vw;
+    height: 10vh;
+    font-size: 3rem;
+    border-radius: 65px;
+    margin-left: 20px;
+    font-family: Roboto Slab, sans-serif;
+    font-weight: bold;
+}
 
-   .logobut__logo {
-       width: 30%;
-   }
+.card {
+    width: 30rem;
+}
 
+.cards {
+    margin-left: 5%;
+}
 
-
-   .mainbox {
-
-       width: 70%;
-       font-family: 'Intro ';
-       font-size: 2rem;
-       margin-top: 10%;
-       margin-left: 5%;
-   }
-
-
-   .mainbox__text {
-       margin-top: 5%;
-       font-family: Roboto Slab, sans-serif;
-   }
-
-
-
-   nav {
-       justify-content: start;
-
-   }
-
-   .nav-item {
-
-       font-size: 2rem;
-       font-family: Roboto Slab, sans-serif;
-       margin-top: 5%;
-
-   }
-
-   .nav-head {
-
-       color: blueviolet;
-       text-decoration: none;
-       padding: 15px;
+.card-body {
+    margin-top: 25%;
+}
 
 
-   }
+.card-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+}
 
-   .nav-footer {
+.card-news {
+    padding-top: 5%;
+    padding-left: 5%;
+    background-color: rgb(227, 97, 97);
+    height: 80%;
+    color: white;
+    width: 30rem;
 
-       color: black;
-       font-style: italic;
-       text-decoration: none;
-       padding: 15px;
-   }
+}
+
+.card-text {
+    margin-top: 5%;
+    font-family: Roboto Slab, sans-serif;
+}
 
 
-   .pic {
-       display: grid;
-   }
+.col {
+    padding: 10px;
+}
 
-   .pic__background {
-       opacity: 0.90;
-       width: 100%;
-   }
+.guy {
+    position: absolute;
+    z-index: 1;
+    margin-top: 5%;
+    margin-left: 5%;
+}
 
-   .pic__guy {
-       position: absolute;
-       z-index: 1;
-       margin-top: 5%;
-       margin-left: 5%;
-   }
 
-   .row {
+.logo {
+    width: 30%;
+}
 
-       font-size: 2rem;
-       justify-content: center;
+.logobut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+}
 
-   }
 
-   .topbutton {
-       width: 10vw;
-       height: 7vh;
-       border-radius: 50px;
-       margin-left: 20px;
-       font-size: 1rem;
-       font-family: Roboto Slab, sans-serif;
-   }
+.logobut__logo {
+    width: 30%;
+}
+
+.mainbox {
+
+    width: 70%;
+    font-family: 'Intro ';
+    margin-left: 5%;
+}
 
 
 
-   .virtualreal-info {
-       display: grid;
-       grid-template-columns: 1fr 1fr;
-       justify-content: space-around;
-   }
+.mainbox__text {
+    margin-top: 5%;
+    font-family: Roboto Slab, sans-serif;
+    font-size: 3rem;
+}
+
+nav {
+    justify-content: start;
+
+}
+
+.nav-item {
+
+    font-size: 2rem;
+    font-family: Roboto Slab, sans-serif;
+    margin-top: 5%;
+}
+
+.nav-head {
+
+    color: blueviolet;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.nav-footer {
+
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+    padding: 15px;
+}
+
+
+.pic {
+    display: grid;
+}
+
+
+.pic__background {
+    opacity: 0.90;
+    width: 100%;
+}
+
+.pic__guy {
+    position: absolute;
+    z-index: 1;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+
+.row {
+
+    font-size: 2rem;
+    justify-content: center;
+}
+
+
+
+
+.topbutton {
+    width: 10vw;
+    height: 7vh;
+    border-radius: 50px;
+    margin-left: 20px;
+    font-size: 1rem;
+    font-family: Roboto Slab, sans-serif;
+}
+
+
+
+.virtualreal-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+}
